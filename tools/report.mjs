@@ -1,0 +1,16 @@
+import fs from 'node:fs';import {evaluate} from '../src/evaluate.mjs';
+const read=f=>JSON.parse(fs.readFileSync('data/examples/'+f,'utf8'));const r=read('forward/result.json'),snaps=read('forward/snapshots.json');const e=evaluate(snaps);
+console.log('PREDICTEFY -> POLYMARKET -> INVENTORY BOT');
+console.log('Captured: '+new Date(r.startedAt).toISOString()+' to '+new Date(r.endedAt).toISOString());
+console.log('Source: fresh authenticated REST books, replayed locally');
+console.log('Snapshots: '+snaps.length+' paired / '+r.report.markets.length+' markets');
+console.log('Requests: '+r.usage.requests+' | Predictefy credits: '+r.usage.credits);
+console.log('Actions: '+Object.entries(r.actions).map(([k,v])=>k+' '+v).join(' / '));
+console.log('Entries -> exits: '+r.actions.SEED+' -> '+r.actions.EXIT);
+console.log('Cash: $'+e.report.cash.toFixed(2));
+console.log('Realized simulation P&L: $'+e.report.realized.toFixed(2));
+console.log('Open cost: $'+e.report.positionsCost.toFixed(2));
+console.log('Immediate-pair baseline (conditional): $'+e.baselines.immediatePair.conditionalPairPnl.toFixed(2));
+console.log('No-trade baseline (realized): $0.00');
+console.log('Replay matches saved ledger: '+(JSON.stringify(e.state)===JSON.stringify(read('forward/ledger.json'))));
+console.log('Live orders: 0 | No signer or order-submission route');
