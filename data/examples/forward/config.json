@@ -1,0 +1,15 @@
+{
+  "bankroll": 1000,
+  "shares": 10,
+  "seedMax": 0.4,
+  "minEdge": 0.015,
+  "slippage": 0.01,
+  "participation": 0.25,
+  "maxAgeMs": 5000,
+  "maxSkewMs": 2000,
+  "futureMs": 500,
+  "unmatchedMs": 30000,
+  "maxUnmatchedCost": 10,
+  "marketBudget": 200,
+  "minRemainingMs": 45000
+}

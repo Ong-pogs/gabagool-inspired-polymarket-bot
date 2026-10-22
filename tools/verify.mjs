@@ -1,0 +1,11 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';import {evaluate} from '../src/evaluate.mjs';
+const dir='data/examples/forward/',read=f=>JSON.parse(fs.readFileSync(f,'utf8')),snaps=read(dir+'snapshots.json'),result=read(dir+'result.json'),ledger=read(dir+'ledger.json'),frozen=read('data/examples/frozen-rules.json');
+assert.equal(snaps.length,60);assert.ok(snaps.every(s=>s.now>Date.parse(frozen.frozenAt)));for(const [file,hash] of Object.entries(frozen.files))assert.equal(createHash('sha256').update(fs.readFileSync(file)).digest('hex'),hash,'Frozen rules changed: '+file);
+const replay=evaluate(snaps);assert.deepEqual(replay.state,ledger);assert.equal(replay.report.cash,result.report.cash);assert.equal(replay.report.realized,-4.06);assert.equal(replay.report.positionsCost,0);assert.equal(replay.baselines.immediatePair.conditionalPairPnl,-3.99);assert.equal(replay.baselines.noTrade.realized,0);
+const original=[0,1].flatMap(i=>read('data/examples/wallet-page-'+i+'.json').body.data),study=read('data/examples/wallet-study.json');assert.equal(original.length,195);assert.equal(study.trades.length,195);assert.equal(original.filter(t=>t.side==='buy').length,195);assert.equal(new Set(original.map(t=>t.marketId)).size,6);
+assert.ok(Math.abs(study.markets[0].combinedAverage-.9770568716364871)<1e-12);
+// Scan distributable text against the actual local key and token-shaped secrets. Never print values.
+try{process.loadEnvFile();}catch{}const key=process.env.PREDICTEFY_API_KEY;
+function files(d){return fs.readdirSync(d,{withFileTypes:true}).filter(x=>!['.git','node_modules','runs','tmp','private'].includes(x.name)&&(!x.name.startsWith('.env')||x.name==='.env.example')).flatMap(x=>x.isDirectory()?files(d+'/'+x.name):[d+'/'+x.name]);}
+let scanned=0;for(const f of files('.')){const text=fs.readFileSync(f,'utf8');if((key&&text.includes(key))||/pk_live_[A-Za-z0-9]{15,}/.test(text))throw Error('Credential check failed: '+f);scanned++;}
+console.log(JSON.stringify({verified:true,snapshots:snaps.length,replayMatchesLedger:true,ruleHashesMatch:true,configFrozenBeforeCapture:true,walletRows:195,forwardRealized:-4.06,immediatePairConditional:-3.99,noTradeRealized:0,distributableFilesScanned:scanned,liveOrders:0},null,2));

@@ -1,0 +1,986 @@
+{
+  "version": 1,
+  "cash": 995.94,
+  "initialCash": 1000,
+  "markets": {
+    "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232": {
+      "title": "Bitcoin Up or Down - October 22, 7:45PM-7:50PM ET",
+      "tokens": [
+        "112432574289962690142074331363031120337314131707723621958763622493619729921546",
+        "105264528872433329406093978947993052058541876231748450561808218125207839125914"
+      ],
+      "fee": {
+        "mode": "reserve",
+        "curveRate": 0.07,
+        "notionalRate": 0.1,
+        "reportedBaseFee": [
+          1000,
+          1000
+        ],
+        "note": "Maximum of documented crypto curve and reported bps notional reserve; not exact venue accounting"
+      },
+      "config": {
+        "bankroll": 1000,
+        "shares": 10,
+        "seedMax": 0.4,
+        "minEdge": 0.015,
+        "slippage": 0.01,
+        "participation": 0.25,
+        "maxAgeMs": 5000,
+        "maxSkewMs": 2000,
+        "futureMs": 500,
+        "unmatchedMs": 30000,
+        "maxUnmatchedCost": 10,
+        "marketBudget": 200,
+        "minRemainingMs": 45000
+      },
+      "lots": [
+        [],
+        []
+      ],
+      "spent": 4.07,
+      "fees": 0.56,
+      "realized": -2.36,
+      "enteredAt": 1792712715591,
+      "halted": true,
+      "settled": false,
+      "lastNow": 1792712829313
+    },
+    "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc": {
+      "title": "Bitcoin Up or Down - October 22, 7:50PM-7:55PM ET",
+      "tokens": [
+        "82147690384285141914979952591797483671671175502413825684182701715919568858483",
+        "40351359597440013194080029454547546731550713248578897508111146490667234147757"
+      ],
+      "fee": {
+        "mode": "reserve",
+        "curveRate": 0.07,
+        "notionalRate": 0.1,
+        "reportedBaseFee": [
+          1000,
+          1000
+        ],
+        "note": "Maximum of documented crypto curve and reported bps notional reserve; not exact venue accounting"
+      },
+      "config": {
+        "bankroll": 1000,
+        "shares": 10,
+        "seedMax": 0.4,
+        "minEdge": 0.015,
+        "slippage": 0.01,
+        "participation": 0.25,
+        "maxAgeMs": 5000,
+        "maxSkewMs": 2000,
+        "futureMs": 500,
+        "unmatchedMs": 30000,
+        "maxUnmatchedCost": 10,
+        "marketBudget": 200,
+        "minRemainingMs": 45000
+      },
+      "lots": [
+        [],
+        []
+      ],
+      "spent": 0,
+      "fees": 0,
+      "realized": 0,
+      "enteredAt": null,
+      "halted": false,
+      "settled": false,
+      "lastNow": 1792712830045
+    },
+    "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b": {
+      "title": "Bitcoin Up or Down - October 22, 7PM ET",
+      "tokens": [
+        "28208468729850292183364901372888848658541124358676798291048252276943947053617",
+        "3983991079110216751549500900145543357463502367615511555032194470001640338771"
+      ],
+      "fee": {
+        "mode": "reserve",
+        "curveRate": 0.07,
+        "notionalRate": 0.1,
+        "reportedBaseFee": [
+          1000,
+          1000
+        ],
+        "note": "Maximum of documented crypto curve and reported bps notional reserve; not exact venue accounting"
+      },
+      "config": {
+        "bankroll": 1000,
+        "shares": 10,
+        "seedMax": 0.4,
+        "minEdge": 0.015,
+        "slippage": 0.01,
+        "participation": 0.25,
+        "maxAgeMs": 5000,
+        "maxSkewMs": 2000,
+        "futureMs": 500,
+        "unmatchedMs": 30000,
+        "maxUnmatchedCost": 10,
+        "marketBudget": 200,
+        "minRemainingMs": 45000
+      },
+      "lots": [
+        [],
+        []
+      ],
+      "spent": 4.4,
+      "fees": 0.7,
+      "realized": -1.7,
+      "enteredAt": 1792712731796,
+      "halted": true,
+      "settled": false,
+      "lastNow": 1792712830788
+    }
+  },
+  "seen": [
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:0:1792712702183",
+      "digest": "753922912c1715e68c715d441eda945589e6836189dc702bb1bdc1f9b73d17ad"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:1:1792712703064",
+      "digest": "25142f258db714ecaa75484d8ad160b6b086c3b538b4d38a5b04d449d44b682a"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:2:1792712703896",
+      "digest": "f214c1b667d7447629e3a873fee16058d1bcedf3bbab4f53d7ea84a320301f5f"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:3:1792712708814",
+      "digest": "13f3899b6a17a87d8be26dc1dfa957898226d5814ac9a7ffdcc161d8ef631033"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:4:1792712710097",
+      "digest": "5dcdfd18d7c33cecccdc4b90f4162d216a546cbf878e32a2712708b04cf29598"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:5:1792712710646",
+      "digest": "f898fa99cc2778291c3a7736ed994556297d04aee2ddd2f1045e1baaa4a8e103"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:6:1792712715185",
+      "digest": "f8a60fbd78f1159822f1612b9236a45ea68bc4a0109f4fe1e0acf6407ed3d05f"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:7:1792712715594",
+      "digest": "fd1b60c2930d33900f5a022c7e91a3b1a826b4c2f7ff4245011d80a4a6f1268d"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:8:1792712716794",
+      "digest": "16e31d0ad4f03fccfa20146e3da791808aee223c543c67a9f8375debc2356687"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:9:1792712721216",
+      "digest": "5ef4342dbab641c46b3511098c6a1438dda4f850a4470af70f8a8295ec573a94"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:10:1792712722383",
+      "digest": "8eb434f2b88148480bef75629dc1ee73cd7f809cf11e84932be62b0f2c557d91"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:11:1792712723011",
+      "digest": "a20c3884d5cc4ac4603968a7e9d2c5ec6064572bf7a7cb90fe477df565706504"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:12:1792712727499",
+      "digest": "d8130cff840e778ea777c1596542020cce151221067de859014df5d45c7d98d7"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:13:1792712728482",
+      "digest": "258486fc32e8068cd07df0bf55af213f82bd0e8c1f119afe577a72cbd7a5d8dc"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:14:1792712730622",
+      "digest": "369234954be7b08f23a92e8a559742e8b935bf4b5280ae255fdc7b12781cdd05"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:15:1792712735813",
+      "digest": "71c88e8e2565f69600b231433c3c8bf0fa9a9a81ab1b1974e8e91f84ec02f366"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:16:1792712736996",
+      "digest": "4d9b1d2dfc32bd8decf3abde8acff27d669867dbbefa06bc21269ebd2548929d"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:17:1792712738165",
+      "digest": "037e92765c31510f747a42a4f143da012edd71846a545ae3a83cc35c68a6a340"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:18:1792712743002",
+      "digest": "eb76d08da78a60496a1c9e16332260f12105e3eb631e37be1386c9abeced3e21"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:19:1792712744093",
+      "digest": "6113ebb551f78854c9b7072bf9555242a0a944b10bc3904ff86a32b5d1dc8919"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:20:1792712745249",
+      "digest": "24363a1befd1992d5a0b006ccc532e06a7e27982694544fe1534d48b1b4a78df"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:21:1792712750347",
+      "digest": "c07fdeb3133c2715576e0a8025a5bebda080b818451d26de9f6da817c6d9d6b1"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:22:1792712751352",
+      "digest": "30e5e4ee570895e872d272102187082e62793e1c2cf513f7541c4585eaf65dc6"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:23:1792712751939",
+      "digest": "70c63aa2156cd69de3f5ce53e39d1a13673eb0619ee856bf57b7bb5b0f1c9a1a"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:24:1792712756963",
+      "digest": "df756ce9347001bef05e08a406e74c6fde056366d0f8320cb65739a0d0b68ee1"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:25:1792712757570",
+      "digest": "afdebc1cacc67f813d042afb04cd3c10709369cb2fbb66848daa5ae9eb3ca622"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:26:1792712758103",
+      "digest": "b1cbdfe7d5467a69a5dcb53db65d8b83af70b1ba5ee919fcdd7cd81451d02169"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:27:1792712763237",
+      "digest": "5c7e01213029504fc51c4bc9669f3543a2e21043c6edfd4a362d4aac487e368f"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:28:1792712764515",
+      "digest": "09465f8976d2118b8db6a1a3230e8de461ecbc905c68d4ee39dac73b147737eb"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:29:1792712765839",
+      "digest": "317523b276b7a5382dbbc7d7cf956377ad7f007d44e1b2b1e1767638cb5c6e36"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:30:1792712771001",
+      "digest": "f3b42ce3c1f82e1f57aed8729973ca351a1fa3e92b90e08ab02cc5ba770243f6"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:31:1792712772368",
+      "digest": "841eb5ed0a08ca64dce9c0b96c15230b08b6aa0907689485b1b919a860b0bf95"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:32:1792712773427",
+      "digest": "b00eb6478ade96b80150336e9e3766558df541ed4f5ec9aa8f5f38081d208e2a"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:33:1792712778107",
+      "digest": "31aadd3f1a164cfdc5d6acc3db20cdd86b14171105c841e1a8f6d5ad223736a6"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:34:1792712778648",
+      "digest": "02e0266c5276d3a517fd9ffd2ea3ee6ee371e852b11599ac49084d380cf5b8da"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:35:1792712779810",
+      "digest": "18154f89d0b0f71354ae027b63765213d1a33ffada4cb35d5c3c8237bf5cc878"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:36:1792712784217",
+      "digest": "b12191f272a05a13c535420da0a858d7485e103d7a8152e348eb93ee95ad5b57"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:37:1792712784995",
+      "digest": "acd429a703ce08ae13414b677f143d3ae5c2b19f22b2f52e09e67d80a44a3ac6"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:38:1792712785420",
+      "digest": "7db7c7de2deb42914e9cb63dc1484c750a7d50b8b1ce70822b3f7af89fc1b8d0"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:39:1792712789802",
+      "digest": "e2135733b293b62936a91ae96298b55de5a98088e9622cbeeda5deb28d78d569"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:40:1792712790243",
+      "digest": "6b851ab4f51af5d9753bc578afe03791433639a172a2ed78adc4ec536c9f372d"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:41:1792712791449",
+      "digest": "30d20823260801a197edd84d02af84ad732827bde2b09cd9a801a6fbc88e3970"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:42:1792712796000",
+      "digest": "a04ca4c0b6171630c960d87e1970a3f62815e93e523d6dfa15f4e9096c3f7e9e"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:43:1792712796724",
+      "digest": "935aecfd5acd1e8e985e52bc885d267080932919e71c349ee4859fec449ea0bd"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:44:1792712797439",
+      "digest": "f8707f8419369108844b5dcb6ebab5edb572d290658fca4e041416a206be397d"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:45:1792712801986",
+      "digest": "a8d04c89d1f14535fd36f1b47ae36b424694f1653e5b26b368e6bf6fead1407d"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:46:1792712803166",
+      "digest": "549de69ee48b069334428febcbcc2c02069431bf30e58010e3d4b0bf12298ebe"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:47:1792712806276",
+      "digest": "fd86dcd829fddddd69c97bd8ff04edfea5e886fbb446c567aae06365e512ac5e"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:48:1792712810981",
+      "digest": "d3a5ef5b8410af2f5bb11a3d739229c048bac0cbd37527c0b0ac9193b72eff8e"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:49:1792712811483",
+      "digest": "111eb8ae88f8a2dc21c70d3bb4aafeac8a825064c97eb7eff08453b87b148c00"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:50:1792712812686",
+      "digest": "99ca2dcc17111c7a75539ae27b40d6be1ee054b4a2a355edf6b62bed1e334825"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:51:1792712817193",
+      "digest": "e2997baa8eff92bc5f27800859f93fd0c436c97b3a5fdfbf3ef08bc1c74feaaf"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:52:1792712817721",
+      "digest": "a18f3c0201fdd5786c36c775fcb52ea1db9647e3b962e098eb0004939cbaa19b"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:53:1792712818124",
+      "digest": "9718ece553224e2214ec80ec70761df7abe6ef18550080268a8a5133d0b73704"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:54:1792712822577",
+      "digest": "0883be2f3aaf66dfa289a97d933675ac4889fb63e5ccc785158f3ed36ece5094"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:55:1792712823105",
+      "digest": "b8c65fc3cdef5d3a6414cc3cb5739ce2fb046ccfb6c9dbdf1a70d80d4db42b1f"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:56:1792712823589",
+      "digest": "472a6c628c925178fd27cd413daa945b4259fbf4410e41755f34c44c585ac7b7"
+    },
+    {
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:57:1792712828385",
+      "digest": "5d6a141fbd1da656106714f65666f2e2a9c234cece000e7c7d3e2072711913e4"
+    },
+    {
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:58:1792712829319",
+      "digest": "0ed4c7806f0dd76b70265eaa6e2d628531d3cc4ecb03d588bc61eb263d021047"
+    },
+    {
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:59:1792712830050",
+      "digest": "8d13b888fe92df600b50c536f38d064024b0decb4db36b8d53ef96c7e47071e5"
+    }
+  ],
+  "events": [
+    {
+      "index": 0,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:0:1792712702183",
+      "now": 1792712703059,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 1,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:1:1792712703064",
+      "now": 1792712703893,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 2,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:2:1792712703896",
+      "now": 1792712704799,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 3,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:3:1792712708814",
+      "now": 1792712710094,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 4,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:4:1792712710097",
+      "now": 1792712710643,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 5,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:5:1792712710646",
+      "now": 1792712711176,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 6,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:6:1792712715185",
+      "now": 1792712715591,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SEED",
+      "leg": 1,
+      "quote": {
+        "side": "buy",
+        "requested": 10,
+        "shares": 10,
+        "gross": 3.7,
+        "fees": 0.37,
+        "total": 4.07,
+        "vwap": 0.37,
+        "fills": [
+          {
+            "size": 10,
+            "price": 0.37,
+            "fee": 0.37,
+            "bookPrice": 0.36
+          }
+        ]
+      },
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 7,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:7:1792712715594",
+      "now": 1792712716790,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 8,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:8:1792712716794",
+      "now": 1792712717205,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 9,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:9:1792712721216",
+      "now": 1792712722380,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.133,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 10,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:10:1792712722383",
+      "now": 1792712723007,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 11,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:11:1792712723011",
+      "now": 1792712723487,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 12,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:12:1792712727499",
+      "now": 1792712728479,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.054629999999999956,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 13,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:13:1792712728482",
+      "now": 1792712730618,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 14,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:14:1792712730622",
+      "now": 1792712731796,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SEED",
+      "leg": 1,
+      "quote": {
+        "side": "buy",
+        "requested": 10,
+        "shares": 10,
+        "gross": 4,
+        "fees": 0.4,
+        "total": 4.4,
+        "vwap": 0.4,
+        "fills": [
+          {
+            "size": 10,
+            "price": 0.4,
+            "fee": 0.4,
+            "bookPrice": 0.39
+          }
+        ]
+      },
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 15,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:15:1792712735813",
+      "now": 1792712736992,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.24299999999999988,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 16,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:16:1792712736996",
+      "now": 1792712738161,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 17,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:17:1792712738165",
+      "now": 1792712738996,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.2100000000000002,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 18,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:18:1792712743002",
+      "now": 1792712744089,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.28700000000000014,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 19,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:19:1792712744093",
+      "now": 1792712745246,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 20,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:20:1792712745249",
+      "now": 1792712746333,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.22100000000000009,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 21,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:21:1792712750347",
+      "now": 1792712751348,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "EXIT",
+      "leg": 1,
+      "quote": {
+        "side": "sell",
+        "requested": 10,
+        "shares": 10,
+        "gross": 1.9,
+        "fees": 0.19,
+        "total": 1.71,
+        "vwap": 0.19,
+        "fills": [
+          {
+            "size": 10,
+            "price": 0.19,
+            "fee": 0.19,
+            "bookPrice": 0.2
+          }
+        ]
+      },
+      "reason": "HEDGE_TIMEOUT",
+      "inventory": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 22,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:22:1792712751352",
+      "now": 1792712751935,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 23,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:23:1792712751939",
+      "now": 1792712752949,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.2100000000000002,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 24,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:24:1792712756963",
+      "now": 1792712757566,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 25,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:25:1792712757570",
+      "now": 1792712758099,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 26,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:26:1792712758103",
+      "now": 1792712759215,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "WAIT",
+      "reason": "PAIR_TOO_EXPENSIVE",
+      "netEdgePerPair": -0.20588000000000006,
+      "inventory": [
+        0,
+        10
+      ]
+    },
+    {
+      "index": 27,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:27:1792712763237",
+      "now": 1792712764511,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 28,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:28:1792712764515",
+      "now": 1792712765835,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 29,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:29:1792712765839",
+      "now": 1792712766987,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "EXIT",
+      "leg": 1,
+      "quote": {
+        "side": "sell",
+        "requested": 10,
+        "shares": 10,
+        "gross": 3,
+        "fees": 0.3,
+        "total": 2.7,
+        "vwap": 0.3,
+        "fills": [
+          {
+            "size": 10,
+            "price": 0.3,
+            "fee": 0.3,
+            "bookPrice": 0.31
+          }
+        ]
+      },
+      "reason": "HEDGE_TIMEOUT",
+      "inventory": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 30,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:30:1792712771001",
+      "now": 1792712772364,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 31,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:31:1792712772368",
+      "now": 1792712773423,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 32,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:32:1792712773427",
+      "now": 1792712774096,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 33,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:33:1792712778107",
+      "now": 1792712778644,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 34,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:34:1792712778648",
+      "now": 1792712779806,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 35,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:35:1792712779810",
+      "now": 1792712780204,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 36,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:36:1792712784217",
+      "now": 1792712784991,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 37,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:37:1792712784995",
+      "now": 1792712785416,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 38,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:38:1792712785420",
+      "now": 1792712785790,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 39,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:39:1792712789802",
+      "now": 1792712790239,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 40,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:40:1792712790243",
+      "now": 1792712791445,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 41,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:41:1792712791449",
+      "now": 1792712791980,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 42,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:42:1792712796000",
+      "now": 1792712796719,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 43,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:43:1792712796724",
+      "now": 1792712797433,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 44,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:44:1792712797439",
+      "now": 1792712797971,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 45,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:45:1792712801986",
+      "now": 1792712803162,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 46,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:46:1792712803166",
+      "now": 1792712806272,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 47,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:47:1792712806276",
+      "now": 1792712806975,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 48,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:48:1792712810981",
+      "now": 1792712811477,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 49,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:49:1792712811483",
+      "now": 1792712812681,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 50,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:50:1792712812686",
+      "now": 1792712813184,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 51,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:51:1792712817193",
+      "now": 1792712817716,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 52,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:52:1792712817721",
+      "now": 1792712818120,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 53,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:53:1792712818124",
+      "now": 1792712818563,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 54,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:54:1792712822577",
+      "now": 1792712823100,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 55,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:55:1792712823105",
+      "now": 1792712823584,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 56,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:56:1792712823589",
+      "now": 1792712824378,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 57,
+      "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232:57:1792712828385",
+      "now": 1792712829313,
+      "marketId": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+      "action": "SKIP",
+      "reason": "HALTED"
+    },
+    {
+      "index": 58,
+      "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc:58:1792712829319",
+      "now": 1792712830045,
+      "marketId": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+      "action": "SKIP",
+      "reason": "ENTRY_PRICE_OR_DEPTH"
+    },
+    {
+      "index": 59,
+      "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b:59:1792712830050",
+      "now": 1792712830788,
+      "marketId": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+      "action": "SKIP",
+      "reason": "HALTED"
+    }
+  ]
+}

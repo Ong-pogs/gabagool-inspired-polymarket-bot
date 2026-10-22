@@ -1,0 +1,10 @@
+{
+  "frozenAt": "2026-10-22T23:45:00.511Z",
+  "files": {
+    "DESIGN.md": "96dfaafabc3be68c9f12748b6d9fbdd08f9e39bf286008160e5f2f196a4df516",
+    "src/engine.mjs": "9a2b1dfbce224f3442d417c56cf12d9223a64ecef3ab61bb02239360ae16c989",
+    "src/scenarios.mjs": "35167fc8a073f12f162fe9b77969802d18fe9cba005918baaaabe15243d3716c",
+    "src/collect.mjs": "15b2a333573e22e83e895a4b92c6689ec5eb241603a30d395da9c653ed3f1411",
+    "test/engine.test.mjs": "812ed82590c30856775f2bce1e270c8ac3ab04b2dca1fbd21b443b896ea91580"
+  }
+}

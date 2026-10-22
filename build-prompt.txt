@@ -1,0 +1,9 @@
+Build a reproducible, local-only Polymarket inventory simulator using Node.js 24 and the Predictefy REST API. Use public gabagool22 trade patterns as inspiration, not as recovered bot source or a known profitable signal. Read DESIGN.md before implementation.
+
+Keep API keys in ignored .env files and authentication headers. Allowlist read routes only; no signer, execution endpoint, funding, or live orders. Verify both tokens against the same official binary condition. Reject stale, synthetic, crossed, skewed, closed or identity-unverified books.
+
+Simulate a small cheap-outcome entry, bounded unmatched exposure, FIFO cost basis, actual partial fills, a net-cost complement rule and a timeout bid exit. Match actual filled sizes, charge an explicit conservative fee reserve, haircut displayed depth and reserve adverse prices. Leave failed exit quantities open. Persist state atomically, prevent concurrent writers, detect duplicate snapshots, and verify settlement identity and terminal outcome.
+
+Write meaningful deterministic tests and freeze the rules before collecting new snapshots. Replay the new data and compare against no-trade and immediate-pair baselines with exactly the same cost assumptions. Distinguish realized simulation P&L, conditional paired payout and open book marks. Preserve negative results.
+
+Provide a localhost evidence dashboard with functional order-book and inventory playback, source timestamps, separate synthetic test scenarios, public wallet evidence and setup instructions. Use official venue branding accurately. Publish only reproducible code and public data; scan all distributed files for credentials.

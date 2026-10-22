@@ -1,0 +1,102 @@
+{
+  "runDir": "runs/forward-01",
+  "config": {
+    "bankroll": 1000,
+    "shares": 10,
+    "seedMax": 0.4,
+    "minEdge": 0.015,
+    "slippage": 0.01,
+    "participation": 0.25,
+    "maxAgeMs": 5000,
+    "maxSkewMs": 2000,
+    "futureMs": 500,
+    "unmatchedMs": 30000,
+    "maxUnmatchedCost": 10,
+    "marketBudget": 200,
+    "minRemainingMs": 45000
+  },
+  "usage": {
+    "requests": 121,
+    "credits": 601
+  },
+  "snapshots": 60,
+  "startedAt": 1792712703059,
+  "endedAt": 1792712830788,
+  "report": {
+    "cash": 995.94,
+    "initialCash": 1000,
+    "markets": [
+      {
+        "id": "0x57ff79d2c805286a1c401d1bbf13f6d6a0dc0f7d8f209fcca7d7c4e021bea232",
+        "title": "Bitcoin Up or Down - October 22, 7:45PM-7:50PM ET",
+        "shares": [
+          0,
+          0
+        ],
+        "paired": 0,
+        "unmatched": 0,
+        "totalCost": 0,
+        "pairedCost": 0,
+        "conditionalPairSurplus": 0,
+        "worstSettlementPnl": 0,
+        "realized": -2.36,
+        "fees": 0.56,
+        "markLiquidation": 0,
+        "settled": false,
+        "halted": true,
+        "spent": 4.07
+      },
+      {
+        "id": "0x091cbf983ff1f3fd39652b127e1cde6fd3755274a6943370b988bffbb472dfbc",
+        "title": "Bitcoin Up or Down - October 22, 7:50PM-7:55PM ET",
+        "shares": [
+          0,
+          0
+        ],
+        "paired": 0,
+        "unmatched": 0,
+        "totalCost": 0,
+        "pairedCost": 0,
+        "conditionalPairSurplus": 0,
+        "worstSettlementPnl": 0,
+        "realized": 0,
+        "fees": 0,
+        "markLiquidation": 0,
+        "settled": false,
+        "halted": false,
+        "spent": 0
+      },
+      {
+        "id": "0x97778f934f76056c685402901b1787f0f7bbbbaaaeeda573c0f1c102cfdfd72b",
+        "title": "Bitcoin Up or Down - October 22, 7PM ET",
+        "shares": [
+          0,
+          0
+        ],
+        "paired": 0,
+        "unmatched": 0,
+        "totalCost": 0,
+        "pairedCost": 0,
+        "conditionalPairSurplus": 0,
+        "worstSettlementPnl": 0,
+        "realized": -1.7,
+        "fees": 0.7,
+        "markLiquidation": 0,
+        "settled": false,
+        "halted": true,
+        "spent": 4.4
+      }
+    ],
+    "realized": -4.06,
+    "positionsCost": 0,
+    "events": 60
+  },
+  "actions": {
+    "SKIP": 48,
+    "SEED": 2,
+    "WAIT": 8,
+    "EXIT": 2
+  },
+  "settledMarkets": 0,
+  "limits": "Forward snapshot simulation. Book marks, not realized venue fills. Fee reserves are assumptions."
+}
