@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {"node": ">=24"},
-  "scripts": {"test": "node --test", "scan": "node src/cli.mjs scan", "demo": "node src/cli.mjs demo", "dashboard": "node src/server.mjs", "verify": "node tools/verify.mjs"}
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test",
+    "scan": "node src/cli.mjs scan",
+    "demo": "node src/cli.mjs demo",
+    "dashboard": "node src/server.mjs",
+    "verify": "node tools/verify.mjs",
+    "replay": "node src/cli.mjs replay data/examples/forward/snapshots.json"
+  }
 }
