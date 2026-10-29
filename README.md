@@ -1,6 +1,6 @@
 # Gabagool-inspired Polymarket bot with the Predictefy API
 
-An original inventory-balancing strategy reconstructed from public wallet patterns. It reads real Polymarket depth through the [Predictefy Prediction Market API](https://predictefy.com/en/api?utm_source=github&utm_medium=readme&utm_campaign=gabagool-inspired-polymarket-bot), simulates small first-leg purchases, and buys the complement only when the actual modeled pair cost meets its edge rule.
+An original inventory-balancing strategy reconstructed from public wallet patterns. It reads real Polymarket depth through the [Predictefy Prediction Market API](https://predictefy.com/en/prediction-market-api?utm_source=github&utm_medium=readme&utm_campaign=gabagool-inspired-polymarket-bot), simulates small first-leg purchases, and buys the complement only when the actual modeled pair cost meets its edge rule.
 
 **This is a research simulator.** It does not contain a signer or a live order route, and it does not reproduce Gabagool's private code or hidden entry signal.
 
